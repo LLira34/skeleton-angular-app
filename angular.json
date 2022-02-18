@@ -103,7 +103,9 @@
               "e2e/tsconfig.json"
             ],
             "exclude": [
-              "**/node_modules/**"
+              "**/node_modules/**",
+              "src/test.ts",
+              "e2e/src/app.po.ts"
             ]
           }
         },
